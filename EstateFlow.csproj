@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>EstateFlow</AssemblyName>
+    <RootNamespace>EstateFlow</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SQL\estateflow.sql" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Documentation\README.md" />
+    <None Include="Documentation\SRS_DESIGN.md" />
+    <None Include="Documentation\USER_MANUAL.md" />
+    <None Include="Documentation\TECHNICAL_MANUAL.md" />
+    <None Include="Documentation\VIVA_PREPARATION.md" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+EstateFlow System Git Repository
+
+Add your GitHub repository link here before final submission:
+https://github.com/your-username/estateflow-system
+
+Suggested commits:
+1. Initial project structure
+2. Add MySQL database layer
+3. Add login and dashboard forms
+4. Add property CRUD module
+5. Add client CRUD module
+6. Add agent and sales modules
+7. Add documentation and deployment guide
